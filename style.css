@@ -1,0 +1,285 @@
+
+/* ----------------------Fonts ----------------------*/
+
+@import url(https://db.onlinewebfonts.com/c/a9f373cd848c81fa666007b98058e8cb?family=Kestrel+Script+Regular);
+@font-face {
+    font-family: "Kestrel Script Regular";
+    src: url("https://db.onlinewebfonts.com/t/a9f373cd848c81fa666007b98058e8cb.eot");
+    src: url("https://db.onlinewebfonts.com/t/a9f373cd848c81fa666007b98058e8cb.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/a9f373cd848c81fa666007b98058e8cb.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/a9f373cd848c81fa666007b98058e8cb.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/a9f373cd848c81fa666007b98058e8cb.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/a9f373cd848c81fa666007b98058e8cb.svg#Kestrel Script Regular")format("svg");
+}
+
+@font-face {
+    font-family: 'Day Roman';
+    src: url('https://www.fontsaddict.com/fontface/day-roman.ttf');
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    color: black;
+    background-color: #f7ebcc;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+/* ----------------------HEADER---------------------- */
+
+#page{
+    width: 900px;
+    margin: auto;
+}
+
+header{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+h1{
+    font-family: "Kestrel Script Regular";
+    font-size: 40px;
+    display: inline;
+}
+h4{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #706b64;
+
+}
+
+
+nav{
+    padding-top: 75px;
+
+}
+
+nav  li{
+    display: inline;
+    
+}
+
+nav  a{
+    
+    font-family: 'Day Roman';
+    font-size: 25px;
+    text-decoration: none;
+    color: black    ;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+
+
+nav a:hover{
+    color: rgb(126, 1, 1);
+    text-decoration: underline;
+}
+
+.hr{
+    border-bottom: solid rgba(97, 86, 62, 0.226) 2px;
+    align-items: center;
+        
+}
+
+
+/* ----------------------DIV---------------------- */
+
+#sanfr{
+
+    position: relative;
+    
+}
+
+.san{
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 5px 8px black;
+    
+    
+}
+
+.text{
+    color: white;
+    bottom: 0px;
+    position: absolute;
+    background-color: rgb(0, 0, 0,0.5);
+    width: 100%;
+    height: 70px;
+    padding-top: 20px;
+    padding-left: 8px;
+    border-radius: 0px 0px 10px 10px;
+
+
+}
+
+.text  a {
+    color: white;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(    to bottom  , #ac6465, #7d0a0c);
+    padding: 5px;
+    position: absolute;
+    display: inline-block;
+    right: 5px;
+    bottom: 10px;
+    border-radius: 8px;
+    border: solid 2px #760001;
+    text-decoration: none;
+
+   }
+   
+/* ----------------------ARTICLE---------------------- */
+article{
+    width: 68%;
+    text-align: justify;
+    position: relative  ;
+}
+
+
+.article-img{
+    display: inline;
+    position: absolute;
+    margin-top: 50px;
+
+}
+
+.article-titel{  
+    display: inline;
+    font-family: 'Day Roman';
+    font-size: 25px;
+    position:absolute;
+    padding: 60px 0px 0px 50px ;
+
+
+ 
+}
+article p {
+    padding-top: 100px;
+}
+
+ /* ----------------------ASIDE---------------------- */
+aside{
+    background-color: #706b64;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+    float: right;
+    position: relative;
+    margin-top: 40px;
+    height: 100%;
+
+}
+
+article , aside {
+    display: inline-block;
+}
+section{
+    display: block;
+
+    }
+
+.aside-img img{
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+aside p {
+    margin: 10px;
+}
+
+
+
+.aside-title{ 
+    font-family: 'Day Roman';
+    font-size: 20px ;
+
+}
+
+p{
+    text-align: justify ;
+}
+
+.aside-ico img {
+    width: 40px;
+    margin: 10px 0px 0px 5px ;
+
+    display: inline;
+}
+
+
+#bulle{
+    position: absolute;
+    top: 100px;
+    left: -12px;
+}
+
+ /* ----------------------FOOTER---------------------- */
+#ico-top img{
+    margin: auto;
+    display: flex;
+    justify-content: center ;
+}
+
+footer p{
+    margin: 20px 0px;
+    font-family: 'Day Roman';
+    font-size: 22px ;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+h5{
+    font-weight: normal;
+    padding-bottom: 10px;
+    
+}
+
+.con2 img{
+    border: solid black 1px;
+
+}
+
+.con3{
+    margin-left: 10px;
+}
+.con3 ul{
+    display: inline-block;
+    margin-bottom: 10px ;
+}
+
+.con3 li{
+    list-style: none;
+    
+}
+
+.con3 a{
+    text-decoration: none;
+    color: #760001;
+}
+
+
+.con3 img {
+    padding-right: 7px;
+}
+
+
+/*iBrahim Aitihia*/
